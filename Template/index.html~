@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG_0.0.7a-min.js""></script><script>DD_belatedPNG.fix('.png, .btn, .simple');</script>
+<![endif]-->
+
+<title>PASAE</title>
+
+</head>
+
+<body id="index">
+  <div id="bigheader">						<!-- Start of Header Part !-->
+    <div class="wrapper">
+      <div id="logocenter">
+	<img src="images/name3.png" alt="example" class="png"/>
+      </div>	  
+      <div style="clear:both;">
+      </div>
+    </div>
+  </div>										<!-- End of Header Part !-->
+
+<div id="contentpart">						<!-- Start of Content Part !-->
+  <div class="wrapper">
+    <ul class="menu">					<!-- This is the menu !-->
+      <li class="current"><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="officers.html">Officers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul> 
+    
+    <div id="content"> 					      
+        <div id="column1">
+            <h2>Who We Are</h2>
+	    <p class="home"><img src="images/icons/Picture.png" alt="example" width="48" height="48" class="simple" />
+	    We serve as a close-knit support group for students in the technical fields, providing student members a space 
+	    for social interaction, cultural understanding, professional guidance, and academic support.</p><br>
+
+	    <h2>Affiliates</h2>
+	      <hr width="330%">
+	      <p>Berkeley engineering students can read about how <a href="http://stephenslade-md.com/" title="Stephen Slade MD">Stephen Slade MD</a> 
+	      is at the fore-front of LASIK eye surgery.
+	      Berkeley students that know of someone with cataracts can speak with 
+	      <a href="http://www.beacheye.com/" title="Orange County cataract surgery">Orange County cataract surgery</a> 
+	      doctors to learn more about this eye condition.</p><br>
+	</div>
+            
+        <div id="column2">
+	  <h2>Our Mission</h2>
+          <p class="home"><img src="images/icons/Modify.png" alt="example" width="48" height="48" class="simple"/>We provide academic support through 
+	  peer counseling, class advising, and technical workshops. We offer TeleBEARS advising, study nights with refreshments, workshops in productivity 
+	  software, website design, financial planning, and alumni networking.</p>
+          <br><br><br>
+	  <p>PASAE alumni go on to prominent careers as <a href="http://www.assileye.com/" title="Los Angeles LASIK">Los Angeles LASIK</a> doctors and other 
+	  medical professionals.</p>		
+	  <p>UC Berkeley members use <a href="http://www.grocerycouponnetwork.com/" title="grocery coupons">grocery coupons</a> when shopping for deals at 
+	  local Berkeley supermarkets.</p>
+	</div>
+            
+        <div id="column3">
+	  <h2>Join Us!</h2>
+	  <p class="home"><img src="images/icons/Comment.png" alt="example" width="48" height="48" class="simple" />To become a member of PASAE, simply attend a 
+	  general meeting or participate in a PASAE event. There are no membership dues and all majors are welcome!</p>
+	  <br><br><br><br>
+	  <p>PASAE members often look for deals on energy efficient vehicles and as such, they are all ears when 
+	  <a href="http://www.buyatoyota.com/prius/deals" title="Toyota Prius incentives">Toyota Prius incentives</a> at Berkeley become available.
+	  For those PASAE members looking to buy a house, they will want to consider a 
+	  <a href="https://www.flagstar.com/personal/borrowing/home-loans/30-year-fixed-rate-mortgage.html" title="30 year fixed rated mortgage">30 year fixed rate mortgage</a> to create stable monthly mortgage payments, low interest rates and fast home closings.</p>
+	</div>
+        
+      </div>								
+        
+      <div style="clear:both;"></div>
+        
+      <div id="bottom"					><!-- This is the Footer !-->
+        <p class="footer">Copyright © 2013 PASAE. All Rights Reserved.</p>
+      </div>
+        
+    </div>
+  </div>										<!-- End of Content Part !-->
+</body>
+</html>
