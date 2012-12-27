@@ -2,40 +2,69 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PASAE</title>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PASAE</title>
-
-<link rel="stylesheet" href="../css/reset.css" type="text/css" />
-<link rel="stylesheet" href="../css/default.css" type="text/css" />
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-<!-- Add jQuery library -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" ../src="../js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-<!-- Add fancyBox -->
-<link rel="stylesheet" href="../js/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
-<script type="text/javascript" src="../js/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
-<!-- Optionally add helpers - button, thumbnail and/or media -->
-<link rel="stylesheet" href="../js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<script type="text/javascript" src="../js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="../js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
-<link rel="stylesheet" href="../js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-<script type="text/javascript" src="../"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-		$(".fancybox-effects-d").fancybox({
-		padding: 0,
-		openEffect : 'elastic',
-		openSpeed  : 150,
-		closeEffect : 'elastic',
-		closeSpeed  : 150,
-		closeClick : true,
-		helpers : {overlay : null}
+	<link rel="stylesheet" href="../css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="../css/default.css" type="text/css" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" ../src="../js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="../js/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+	<script type="text/javascript" src="../js/fancybox/source/jquery.fancybox.pack.js?v=2.1.3"></script>
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="../js/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="../js/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="../js/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	<link rel="stylesheet" href="../js/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="../"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+			$(".fancybox-effects-d").fancybox({
+			padding: 0,
+			openEffect : 'elastic',
+			openSpeed  : 150,
+			closeEffect : 'elastic',
+			closeSpeed  : 150,
+			closeClick : true,
+			helpers : {overlay : null}
+			});
 		});
+	</script>
+	<!-- jQuery Fade Effect !-->
+	<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").css("display", "none");
+    });
+	</script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(1000);
+    });
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$("body").css("display", "none");
+	 
+		$("body").fadeIn(1000);
+	 
+		$("a.transition").click(function(event){
+			event.preventDefault();
+			linkLocation = this.href;
+			$("body").fadeOut(1000, redirectPage);      
+		});
+			 
+		function redirectPage() {
+			window.location = linkLocation;
+		}
 	});
-</script>
+	</script>
 </head>
 
 <body>
@@ -54,11 +83,11 @@
 	<div class="wrapper">
         <!-- MENU !-->
         <ul class="menu">						
-            <li><a href="../index">Home</a></li>
-            <li><a href="../news">News</a></li>
-			<li><a href="../about">About</a></li>
-			<li class="current"><a href="../officers">Officers</a></li>
-            <li><a href="../contact">Contact</a></li>
+            <li><a href="../index" class="transition">Home</a></li>
+            <li><a href="../news" class="transition">News</a></li>
+			<li><a href="../about" class="transition">About</a></li>
+			<li class="current"><a href="../officers" class="transition">Officers</a></li>
+            <li><a href="../contact" class="transition">Contact</a></li>
         </ul>  
         
         <div id="content">						

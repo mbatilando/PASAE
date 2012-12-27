@@ -9,6 +9,36 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="css/default.css" type="text/css" />
 	<link rel="stylesheet" href="css/hoverstyle.css" type="text/css" />
+	<!-- jQuery Fade Effect !-->
+	<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+        $("body").css("display", "none");
+    });
+	</script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(1000);
+    });
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$("body").css("display", "none");
+	 
+		$("body").fadeIn(1000);
+	 
+		$("a.transition").click(function(event){
+			event.preventDefault();
+			linkLocation = this.href;
+			$("body").fadeOut(1000, redirectPage);      
+		});
+			 
+		function redirectPage() {
+			window.location = linkLocation;
+		}
+	});
+	</script>
 </head>
 <body>
 	<div id="smallheader"><!-- START HEADER !-->
@@ -23,7 +53,7 @@
 		<div class="wrapper">
 			
 			<ul class="menu"><!-- MENU !-->
-				<li><a href="index">Home</a></li>
+				<li><a href="index" class="transition">Home</a></li>
 				<li><a href="news">News</a></li>
 				<li><a href="photos">Photos</a></li>
 				<li><a href="about">About</a></li>
@@ -40,10 +70,10 @@
 					<hr width="100%">
 					<table>
 						<tr>
-							<td><a href="htmlofficer/president"><div class="bw pic"><img src="images/officerimages/nina.jpg" title="Nina Lagpacan" 
+							<td><a href="htmlofficer/president" class="transition"><div class="bw pic"><img src="images/officerimages/nina.jpg" title="Nina Lagpacan" 
 							alt="Nina" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/co-president"><div class="bw pic"><img src="images/officerimages/kim.jpg" title="Kimberly D'Costa" 
+							<td><a href="htmlofficer/co-president" class="transition"><div class="bw pic"><img src="images/officerimages/kim.jpg" title="Kimberly D'Costa" 
 							alt="Kim" width="100" height="100"></a></div></td>
 						</tr>
 						<tr>
@@ -59,16 +89,16 @@
 					<hr width="100%">
 					<table>
 						<tr>
-							<td><a href="htmlofficer/internalvp"><div class="bw pic"><img src="images/officerimages/kevin.jpg" title="Kevin Pamplona" 
+							<td><a href="htmlofficer/internalvp" class="transition"><div class="bw pic"><img src="images/officerimages/kevin.jpg" title="Kevin Pamplona" 
 							alt="Kevin" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/secretary"><div class="bw pic"><img src="images/officerimages/diane.jpg" title="Diane Quillao" 
+							<td><a href="htmlofficer/secretary" class="transition"><div class="bw pic"><img src="images/officerimages/diane.jpg" title="Diane Quillao" 
 							alt="Diane" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/treasurer"><div class="bw pic"><img src="images/officerimages/ian.jpg" title="Ian Custodio" 
+							<td><a href="htmlofficer/treasurer" class="transition"><div class="bw pic"><img src="images/officerimages/ian.jpg" title="Ian Custodio" 
 							alt="Ian" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/historian"><div class="bw pic"><img src="images/officerimages/rodson.jpg" title="Francis Rodson Clavel" 
+							<td><a href="htmlofficer/historian" class="transition"><div class="bw pic"><img src="images/officerimages/rodson.jpg" title="Francis Rodson Clavel" 
 							alt="Rodson" width="100" height="100"></a></div></td>
 						</tr>
 						<tr>
@@ -90,16 +120,16 @@
 					<hr width="100%">
 					<table>
 						<tr>
-							<td><a href="htmlofficer/externalvp"><div class="bw pic"><img src="images/officerimages/roxy.jpg" title="Roxanne Coronel" 
+							<td><a href="htmlofficer/externalvp" class="transition"><div class="bw pic"><img src="images/officerimages/roxy.jpg" title="Roxanne Coronel" 
 							alt="Roxy" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/engineeringrep"><div class="bw pic"><img src="images/officerimages/patrick.jpg" title="Patrick Trillo" 
+							<td><a href="htmlofficer/engineeringrep" class="transition"><div class="bw pic"><img src="images/officerimages/patrick.jpg" title="Patrick Trillo" 
 							alt="Patrick" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
 							<td><a href="htmlofficer/sciencerep"><div class="bw pic"><img src="images/officerimages/bryan.jpg" title="Bryan Aeyeung" 
-							alt="Bryan" width="100" height="100"></a></div></td>
+							alt="Bryan" width="100" height="100" class="transition"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/environdesignrep"><div class="bw pic"><img src="images/officerimages/greicko.jpg" title="Greicko Almoite" 
+							<td><a href="htmlofficer/environdesignrep" class="transition"><div class="bw pic"><img src="images/officerimages/greicko.jpg" title="Greicko Almoite" 
 							alt="Greicko" width="100" height="100"></a></div></td>
 						</tr>
 						<tr>
@@ -121,19 +151,19 @@
 					<hr width="100%">
 					<table>
 						<tr>
-							<td><a href="htmlofficer/creativedirector"><div class="bw pic"><img src="images/officerimages/charvi.jpg" title="Charvi Shetty" 
+							<td><a href="htmlofficer/creativedirector" class="transition"><div class="bw pic"><img src="images/officerimages/charvi.jpg" title="Charvi Shetty" 
 							alt="Charvi" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/co-creativedirector"><div class="bw pic"><img src="images/officerimages/melvin.jpg" title="Melvin Garcia" 
+							<td><a href="htmlofficer/co-creativedirector" class="transition"><div class="bw pic"><img src="images/officerimages/melvin.jpg" title="Melvin Garcia" 
 							alt="Melvin" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/publicrelations"><div class="bw pic"><img src="images/officerimages/nicole.jpg" title="Nicole Schager" 
+							<td><a href="htmlofficer/publicrelations" class="transition"><div class="bw pic"><img src="images/officerimages/nicole.jpg" title="Nicole Schager" 
 							alt="Nicole" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/socialchair"><div class="bw pic"><img src="images/officerimages/kristin.jpg" title="Kristin Soriano" 
+							<td><a href="htmlofficer/socialchair" class="transition"><div class="bw pic"><img src="images/officerimages/kristin.jpg" title="Kristin Soriano" 
 							alt="Kristin" width="100" height="100"></a></div></td>
 							<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
-							<td><a href="htmlofficer/webmaster"><div class="bw pic"><img src="images/officerimages/mari.jpg" title="Mari Batilando" 
+							<td><a href="htmlofficer/webmaster" class="transition"><div class="bw pic"><img src="images/officerimages/mari.jpg" title="Mari Batilando" 
 							alt="Mari" width="100" height="100"></a></div></a></td>
 						</tr>
 						<tr>
