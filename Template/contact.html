@@ -2,110 +2,103 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/reset.css" type="text/css" />
-<link rel="stylesheet" href="css/default.css" type="text/css" />
-
-<!--[if IE 6]>
-<script src="js/DD_belatedPNG_0.0.7a-min.js""></script><script>DD_belatedPNG.fix('.png, .btn');</script>
-<![endif]-->
-
-<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
-<script type="text/javascript" src="js/mailer.js"></script>
-
-<title>PASAE</title>
-
+	<title>PASAE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/default.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
+	<script type="text/javascript" src="js/mailer.js"></script>
 </head>
-<body>
-<div id="smallheader"><!-- START HEADER !-->
-	<div class="wrapper">
-    
-        <div id="logo">
-      	<img src="images/name2.png" alt="your name" class="png"/>
-      	</div>          
-	</div>
-</div><!-- END HEADER !-->
 
-<div id="contentpart"><!-- START CONTENT !-->
-	<div class="wrapper">
-        
-        <ul class="menu"><!-- MENU !-->
-            <li><a href="index">Home</a></li>
-            <li><a href="news">News</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="officers">Officers</a></li>
-            <li  class="current"><a href="contact">Contact</a></li>
-        </ul>  
-        
-        <div id="content">  		  
-        
-        	<div id="main"><!-- MAIN CONTENT !-->
-        		<div class="title"><h2>Contact Us</h2></div>
-                
-       		  <p>PASAE offers its members a vast array of services: social, cultural, professional, 
-			  and academic. We welcome all majors and interests. To become a member just come out to 
-			  one of our events.</p><br>
-			  
-                <div id="contact-area">
-                <form method="post" action="sendEmail.php">
-                
-                	<fieldset>
-                        <p><label for="Name">Name</label>
-                        <input type="text" name="name" id="name" /></p>
-            
-                        <p><label for="Email">Email</label>
-                        <input type="text" name="email" id="email" /></p>
-                        
-                        <p><label for="Email">Subject</label>
-                        <input type="text" name="subject" id="subject" /></p>
-                        
-                        <p><label for="Message">Message</label>
-                        <textarea name="message" id="message" rows="12"></textarea></textarea></p>
-        
-                        <p><input type="submit" name="submit" id="submit" value="Send" /></p>
-                    </fieldset>
-                    
-                    	<p><ul id="response" /></p>
-                    
-                    <div style="clear:both;"></div>
-                    
-                </form>
-                </div>
-        
-        	</div><!-- END MAIN CONTENT !-->
-        
-         	<div id="sidebar"><!-- START SIDEBAR !-->
-				<div class="title"><h2>PASAE Office</h2>
-				</div>
-					<p>220 Bechtel Engineering<br>
-					University of California, Berkeley<br>
-					Berkeley, CA 94704<br>
-					ucb.pasae@gmail.com<br></p>
-					<h3>Networks</h3> 
-					<ul> 
-						<li><a href="http://www.fasaeonline.org/">FASAE</a> &mdash; Our Official Alumni Chapter</li> 
-						<li><a href="http://asuc.org/">ASUC</a> &mdash; Associated Students of the UC</li> 
-						<li><a href="http://ejc.berkeley.edu/">ESC</a> &mdash; Engineering Student Council</li>
-						<li><a href="http://swe.coe.berkeley.edu/">SWE</a> &mdash; Society of Women Engineers</li>
-						<li><a href="http://ucbpaa.wix.com">PAA</a> &mdash; Pilipino American Alliance</li>
-						<li><a href="http://www.ocf.berkeley.edu/~pass">PASS</a> &mdash; Pilipino Academic Student Services</li>
-						<li><a href="http://www.ocf.berkeley.edu/~pahc">PAHC</a> &mdash; Pilipino Assoc. for Health Careers</li>
-						<li><a href="http://calp4.wordpress.com/">P4</a> &mdash; Partnership for Pre-Professional Pilipinos</li>
-					</ul><br />
-				<img src="images/calpridelogo.jpg" align="left" alt="PASAE" class="jpg"/>
-			</div><!-- END SIDEBAR !-->
-        
-        </div>							
-            
-		<div style="clear:both;">
+<body>
+	<!-- START HEADER !-->
+	<div id="smallheader">
+		<div class="wrapper">
+		
+			<div id="logo">
+			<img src="images/name2.png" alt="PASAE" class="png"/>
+			</div>          
 		</div>
-        
-        <div id="bottom">
-        <p class="footer">Copyright © 2013 PASAE. All Rights Reserved.</p>
-        </div>
-        
 	</div>
-</div><!-- END CONTENT !-->
+	<!-- END HEADER !-->
+	<!-- START CONTENT !-->
+	<div id="contentpart">
+		<div class="wrapper">
+			<!-- MENU !-->
+			<ul class="menu">
+				<li><a href="index">Home</a></li>
+				<li><a href="news">News</a></li>
+				<li><a href="photos">Photos</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="officers">Officers</a></li>
+				<li  class="current"><a href="contact">Contact</a></li>
+			</ul>  
+			
+			<div id="content">  		  
+			<!-- MAIN CONTENT !-->
+				<div id="main">
+					<div class="title"><h2>Contact Us</h2></div>
+					
+				  <p>PASAE offers its members a vast array of services: social, cultural, professional, 
+				  and academic. We welcome all majors and interests. To become a member just come out to 
+				  one of our events.</p><br>
+				  
+					<div id="contact-area">
+					<form method="post" action="sendEmail.php">
+					
+						<fieldset>
+							<p><label for="Name">Name</label>
+							<input type="text" name="name" id="name" /></p>
+				
+							<p><label for="Email">Email</label>
+							<input type="text" name="email" id="email" /></p>
+							
+							<p><label for="Email">Subject</label>
+							<input type="text" name="subject" id="subject" /></p>
+							
+							<p><label for="Message">Message</label>
+							<textarea name="message" id="message" rows="12"></textarea></textarea></p>
+			
+							<p><input type="submit" name="submit" id="submit" value="Send" /></p>
+						</fieldset>
+				
+							<p><ul id="response" /></p>
+						
+						<div style="clear:both;"></div>
+						
+					</form>
+					</div>
+			
+				</div>
+				<!-- SIDEBAR !-->
+				<div id="sidebar">
+					<div class="title"><h2>PASAE Office</h2>
+					</div>
+						<p>220 Bechtel Engineering<br>
+						University of California, Berkeley<br>
+						Berkeley, CA 94704<br>
+						ucb.pasae@gmail.com<br></p>
+						<h3>Networks</h3> 
+						<ul> 
+							<li><a href="http://www.fasaeonline.org/">FASAE</a> &mdash; Our Official Alumni Chapter</li> 
+							<li><a href="http://asuc.org/">ASUC</a> &mdash; Associated Students of the UC</li> 
+							<li><a href="http://ejc.berkeley.edu/">ESC</a> &mdash; Engineering Student Council</li>
+							<li><a href="http://swe.coe.berkeley.edu/">SWE</a> &mdash; Society of Women Engineers</li>
+							<li><a href="http://ucbpaa.wix.com">PAA</a> &mdash; Pilipino American Alliance</li>
+							<li><a href="http://www.ocf.berkeley.edu/~pass">PASS</a> &mdash; Pilipino Academic Student Services</li>
+							<li><a href="http://www.ocf.berkeley.edu/~pahc">PAHC</a> &mdash; Pilipino Assoc. for Health Careers</li>
+							<li><a href="http://calp4.wordpress.com/">P4</a> &mdash; Partnership for Pre-Professional Pilipinos</li>
+						</ul><br />
+					<img src="images/calpridelogo.jpg" align="left" alt="PASAE" class="jpg"/>
+				</div>
+			</div>							
+			<div style="clear:both;">
+			</div>
+			<div id="bottom">
+				<p class="footer">Copyright © 2013 PASAE. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+<!-- END CONTENT !-->
 </body>
 </html>
