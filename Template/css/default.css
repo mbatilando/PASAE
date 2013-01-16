@@ -1,7 +1,7 @@
 ﻿body {
 	display:none
-	font-family: “Lucida Sans Unicode”, sans-serif;
-	font-size: 11px;
+	font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+	font-size: 12px;
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
@@ -46,7 +46,15 @@ h5 {font-size: 10px; color: #999; line-height: 1em;}
 .news p {border-bottom: 1px solid #e9e9e9; padding-bottom: 10px; margin-bottom: 60px;}
 .news p:last-child {border: none; margin-bottom: 0px;}
 
-.home {padding-top: 10px;}
+.home {
+	padding-top: 10px;
+	text-align:center;
+	font-size: 14px;
+}
+
+.coltitle {
+	text-align:center;
+}
 .home img {margin: 0px 5px;}
 
 blockquote {
@@ -219,6 +227,8 @@ blockquote p {
 
 #content {
 	clear: both;
+	font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+	font-size: 12px;
 }
 
 .title {
@@ -235,6 +245,7 @@ blockquote p {
 			height: 50px;
 			margin-bottom: 30px;
 			list-style: none;
+			font-size: 14px;
 			}
 		
 		.menu li {
@@ -280,6 +291,7 @@ blockquote p {
 					}
 					
 					#column2 {
+						margin-top: 74px;
 						float: left;
 						width: 280px;
 						margin-left: 45px;
@@ -289,7 +301,27 @@ blockquote p {
 					#column3 {
 						float: left;
 						width: 280px;
+						margin-top: 38px;
 					}
+					
+					img#columnpic1{
+						padding: 20px 20px 10px 20px;
+						margin-left: 20px;
+						margin-right: auto;
+					}
+					
+					img#columnpic2 {
+						padding: 20px 20px 10x 20px;
+						margin-left: 20px;
+						margin-right: auto;
+					}
+					
+					img#columnpic3 {
+						padding: 20px;
+						margin-left: 50px;
+						margin-right: auto;
+					}
+					
 					
 					/*---------------2 Column Layout (with small sidebar)----------------*/
 					
@@ -390,12 +422,12 @@ blockquote p {
 								}
 
 #columnfooter2 {
-				margin: 59px 0 0 0;
+				margin: 36px 0 0 0;
 				width: 280px;
 				padding-bottom: 0px;
 								}
 #columnfooter3 {
-				margin: 85px 0 0 0;
+				margin: 92px 0 0 0;
 				width: 280px;
 				padding-bottom: 0px;
 								}
