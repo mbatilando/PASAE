@@ -27,9 +27,11 @@ h5 {font-size: 10px; color: #999; line-height: 1em;}
 
 /*---About--*/
 
-#aboutlogo {
-	background-image:url('../images/pasaelogo.png');
+#pasaelogo {
+	float: right;
 	}
+	
+
 
 /*----Text styling / Paragraphs-----*/
 
