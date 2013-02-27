@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  
+  $("#photosBut").click(function(){
+    $("#content").load("../photos/index.html");
+    });
+  
+  $("#officerBut").click(function(){
+    $("#content").load("../officer/");
+  });
+  
+  $("#contactBut").click(function(){
+    $("#content").load("../contact/");
+  });
+});
