@@ -25,6 +25,32 @@ h3 {font-size: 16px; color: #333; }
 h4 {font-size: 13px; color: #666; }
 h5 {font-size: 11px; color: #999; line-height: 1em;}
 
+
+#crossfade {
+    position:relative;
+    height:100px;
+    width:100px;
+}
+
+#crossfade img {
+    position:absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;    
+    transition: opacity .5s ease-in-out;
+}
+ 
+#crossfade img.top:hover {
+    opacity:0;
+}
+
+
+
+
+
 /*---About--*/
 
 #pasaelogo {
