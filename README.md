@@ -2,4 +2,4 @@ PASAE (pasae.berkeley.edu)
 =====
 The Pilipino Association of Scientists, Architects, and Engineers
 
-This repository is meant for the PASAE Webmaster/Interns so that they can easily collaborate and work on the PASAE site.
+This repository is for the overhaul of pasae.berkeley.edu (2012 school year).
